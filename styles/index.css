@@ -1,0 +1,61 @@
+body {
+    background-image: url("/image/boxing.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid;
+    margin: 0 100px 0 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-shadow: 2px 2px 2px rgb(69, 67, 67);
+}
+
+p {
+    display: inline-block;
+    margin: 20px 0;
+    width: 30%;
+    background-color: rgba(128, 128, 128, 0.361);
+    color: rgb(74, 255, 128);
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+div {
+    text-align: center;
+}
+
+.item {
+
+    background-color: aquamarine;
+    border: 2px solid;
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+    overflow: hidden;
+
+}
+
+section {
+    display: flex;
+    margin: 0 100px;
+}
+
+.item ol {
+    width: 60%;
+    margin: 0px auto;
+    text-align: left;
+    overflow: hidden;
+
+
+}
